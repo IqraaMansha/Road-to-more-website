@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .main {
   background-image: url(6.jpg);
   background-position: center;
@@ -17,16 +18,19 @@
   min-height: 1000px;
   max-height: 1px;
 }
+
 .navbar {
   width: 1200px;
   height: 75px;
   margin: auto;
 }
+
 .icon {
   width: 200px;
   float: left;
   height: 70px;
 }
+
 .logo {
   color: #1d0d49;
   font-size: 40px;
@@ -35,26 +39,31 @@
   float: left;
   padding-top: 10px;
 }
+
 .menu {
   width: 400px;
   float: left;
   height: 70px;
 }
+
 .contact {
   display: none;
 }
+
 ul {
   float: left;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 ul li {
   list-style: none;
   margin-left: 62px;
   margin-top: 27px;
   font-size: 16px;
 }
+
 ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -62,15 +71,18 @@ ul li a {
   font-weight: bold;
   transition: 0.4s ease-in-out;
 }
+
 ul li a:hover {
   color: #1d0d49;
 }
+
 .search {
   width: 330px;
   float: left;
   margin-left: 270px;
   height: 270px;
 }
+
 .srch {
   font-family: "Times New Roman";
   width: 200px;
@@ -86,6 +98,7 @@ ul li a:hover {
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
+
 .btn {
   width: 100px;
   height: 40px;
@@ -96,12 +109,15 @@ ul li a:hover {
   font-size: 15px;
   border-bottom-right-radius: 5px;
 }
+
 .btn:focus {
   outline: none;
 }
+
 .srch:focus {
   outline: none;
 }
+
 .CONTENT {
   width: 100px;
   height: auto;
@@ -109,6 +125,7 @@ ul li a:hover {
   color: #fff;
   position: relative;
 }
+
 .content .par {
   padding: 20px;
   padding-bottom: 25px;
@@ -116,6 +133,7 @@ ul li a:hover {
   letter-spacing: 1.2px;
   line-height: 30px;
 }
+
 .content h1 {
   font-family: "Times New Roman";
   font-size: 50px;
@@ -123,6 +141,7 @@ ul li a:hover {
   padding-top: 14px;
   letter-spacing: 2px;
 }
+
 .content .cn {
   width: 160px;
   height: 40px;
@@ -134,26 +153,28 @@ ul li a:hover {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .content .cn a {
   text-decoration: none;
   color: black;
   transition: 0.3s ease;
 }
+
 .cn:hover {
   background-color: #fff;
 }
+
 .content span {
   color: #1d0d49;
   font-size: 60px;
 }
+
 .form {
   width: 240px;
   height: 340px;
-  background: linear-gradient(
-    to top,
-    rgba(57, 47, 77, 0.8) 50%,
-    rgba(57, 47, 77, 0.8) 50%
-  );
+  background: linear-gradient(to top,
+      rgba(57, 47, 77, 0.8) 50%,
+      rgba(57, 47, 77, 0.8) 50%);
   position: absolute;
   top: -20px;
   left: 870px;
@@ -162,6 +183,7 @@ ul li a:hover {
   margin-top: 280px;
   margin-left: 45px;
 }
+
 .form h2 {
   width: 220px;
   font-family: sans-serif;
@@ -173,6 +195,7 @@ ul li a:hover {
   margin: 2px;
   padding: 8px;
 }
+
 .form input {
   width: 240px;
   height: 35px;
@@ -187,13 +210,16 @@ ul li a:hover {
   margin-top: 30px;
   font-family: sans-serif;
 }
+
 .FORM INPUT:focus {
   outline: none;
 }
+
 ::placeholder {
   color: #fff;
   font-family: arial;
 }
+
 .btnn {
   width: 240px;
   height: 40px;
@@ -205,25 +231,30 @@ ul li a:hover {
   cursor: pointer;
   color: white;
 }
+
 .btnn:hover {
   background: #fff;
   color: #1d0d49;
 }
+
 .btnn a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
 }
+
 .form .link {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   padding-top: 20px;
   text-align: center;
 }
+
 .form .link a {
   text-decoration: none;
   color: #1d0d49;
 }
+
 .liw {
   padding-top: 15px;
   padding-bottom: 10px;
@@ -234,6 +265,7 @@ ul li a:hover {
   text-decoration: none;
   color: #fff;
 }
+
 .icons ion-icon {
   color: #fff;
   font-size: 30px;
@@ -241,9 +273,11 @@ ul li a:hover {
   padding-top: 5px;
   transition: 0.3s ease;
 }
+
 .icons ion-icon:hover {
   color: #1d0d49;
 }
+
 .main1 {
   background-image: url(iop.jpg);
   background-position: center;
@@ -259,11 +293,13 @@ ul li a:hover {
   min-height: 1000px;
   max-height: 1px;
 }
+
 .navbar1 {
   width: 1200px;
   height: 75px;
   margin: auto;
 }
+
 .logo1 {
   color: #0b1f4cda;
   font-size: 40px;
@@ -278,9 +314,11 @@ ul li a:hover {
   float: left;
   height: 70px;
 }
+
 .contact2 {
   display: none;
 }
+
 .h3 .para2 {
   padding: 92px;
   padding-bottom: 49px;
@@ -288,6 +326,7 @@ ul li a:hover {
   letter-spacing: 1.2px;
   line-height: 90px;
 }
+
 .main2 {
   background-image: url(puy.webp);
   background-position: center;
@@ -303,11 +342,13 @@ ul li a:hover {
   min-height: 1000px;
   max-height: 1px;
 }
+
 .navbar2 {
   width: 1200px;
   height: 75px;
   margin: auto;
 }
+
 .logo2 {
   color: #d4c2c2;
   font-size: 40px;
@@ -316,11 +357,13 @@ ul li a:hover {
   float: left;
   padding-top: 10px;
 }
+
 .menu2 {
   width: 400px;
   float: left;
   height: 70px;
 }
+
 .h3 .para3 {
   padding: 92px;
   padding-bottom: 49px;
@@ -328,6 +371,7 @@ ul li a:hover {
   letter-spacing: 1.2px;
   line-height: 90px;
 }
+
 .main3 {
   background-image: url(wer.webp);
   background-position: center;
@@ -343,11 +387,13 @@ ul li a:hover {
   min-height: 1000px;
   max-height: 1px;
 }
+
 .navbar3 {
   width: 1200px;
   height: 75px;
   margin: auto;
 }
+
 .logo3 {
   color: #704d78;
   font-size: 40px;
@@ -356,11 +402,13 @@ ul li a:hover {
   float: left;
   padding-top: 10px;
 }
+
 .menu3 {
   width: 400px;
   float: left;
   height: 70px;
 }
+
 .h3 .para4 {
   padding: 92px;
   padding-bottom: 49px;
@@ -368,6 +416,7 @@ ul li a:hover {
   letter-spacing: 1.2px;
   line-height: 90px;
 }
+
 @media (min-width: 0) and (max-width: 500px) {
   /* #main{
     display: block;
