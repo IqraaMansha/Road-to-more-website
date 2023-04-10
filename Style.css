@@ -243,9 +243,8 @@ ul li a:hover {
 }
 .icons ion-icon:hover {
   color: #1d0d49;
-  
 }
-.main1{
+.main1 {
   background-image: url(iop.jpg);
   background-position: center;
   background-size: cover;
@@ -266,13 +265,14 @@ ul li a:hover {
   margin: auto;
 }
 .logo1 {
-  color:  #0b1f4cda;
+  color: #0b1f4cda;
   font-size: 40px;
   font-family: fantasy;
   padding-left: 20px;
   float: left;
   padding-top: 10px;
 }
+
 .menu1 {
   width: 400px;
   float: left;
@@ -288,7 +288,7 @@ ul li a:hover {
   letter-spacing: 1.2px;
   line-height: 90px;
 }
-.main2{
+.main2 {
   background-image: url(puy.webp);
   background-position: center;
   background-size: cover;
@@ -328,7 +328,7 @@ ul li a:hover {
   letter-spacing: 1.2px;
   line-height: 90px;
 }
-.main3{
+.main3 {
   background-image: url(wer.webp);
   background-position: center;
   background-size: cover;
@@ -367,8 +367,8 @@ ul li a:hover {
   font-family: Arial;
   letter-spacing: 1.2px;
   line-height: 90px;
-}  
-@media (min-width:0) and (max-width:500px){ 
+}
+@media (min-width: 0) and (max-width: 500px) {
   /* #main{
     display: block;
   }
